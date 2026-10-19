@@ -1,0 +1,4 @@
+smiles
+*-build/
+test/obs.txt
+__pycache__/

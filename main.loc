@@ -1,0 +1,18 @@
+--' Work on chemical SMILES codes
+module smiles (mw, canonicalize, formula)
+
+source Py from "smiles.py" ("mw", "canonicalize", "formula")
+
+import root-py
+
+--' SMILES code
+type Smiles = Str
+
+--' Get molecular weight
+mw :: Smiles -> Real
+
+--' Find the canonical form
+canonicalize :: Smiles -> Smiles
+
+--' Derive the molecular formula
+formula :: Smiles -> Str

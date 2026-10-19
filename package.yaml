@@ -1,0 +1,14 @@
+name: smiles
+version: 0.1.0
+homepage: null
+synopsis: "Chemical structures in SMILES format"
+description: null
+category: null
+license: MIT
+author: "Zebulun Arendsee"
+maintainer: "Zebulun Arendsee"
+github: null
+bug-reports: null
+dependencies: []
+py-deps:
+  rdkit: { version: "*", source: "conda" }

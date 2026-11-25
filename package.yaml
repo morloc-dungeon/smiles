@@ -9,6 +9,5 @@ author: "Zebulun Arendsee"
 maintainer: "Zebulun Arendsee"
 github: null
 bug-reports: null
-dependencies: []
 py-deps:
   rdkit: { version: "*", source: "conda" }
